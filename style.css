@@ -1,0 +1,50 @@
+body{
+    background-color: lightslategray;
+}
+.btn1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 131, 155);
+    box-shadow: 3px 3px 3px;
+    margin-right: 10px;
+
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    cursor: pointer;
+}
+.dropdown a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+
+}
+.dropdown .content{
+    position: absolute;
+    display: none;
+    box-shadow: 3px 3px 5px black;
+    background-color: rgb(144, 166, 187);
+
+}
+.dropdown:hover .content{
+    background-color: rgb(35, 158, 196);
+    display: inline;
+}
+.dropdown a:hover{
+    background-color: antiquewhite;
+}
+h1{
+    float: right;
+    margin-right: 50px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    padding: 5px 5px;
+}
+.secret h1{
+    color:aquamarine;
+    cursor: no-drop;
+    
+}
